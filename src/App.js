@@ -31,8 +31,9 @@ function App() {
         >
           Clique aqui para baixar os videos.
 
-          Salve o link para ver quando quiser sem precisar baixar.
         </a>
+        Salve o link para ver quando quiser.
+
       </header>
     </div>
     </>
