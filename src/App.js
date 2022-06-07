@@ -30,6 +30,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Clique aqui para baixar os videos.
+
+          Salve o link para ver quando quiser sem precisar baixar.
         </a>
       </header>
     </div>
