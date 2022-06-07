@@ -1,8 +1,22 @@
 import logo from './check-icone-1-scaled.png';
 import './App.css';
+import Helmet from 'react-helmet'
 
 function App() {
   return (
+    <>
+    <Helmet>
+    <script>
+      {
+        `
+        gtag('event', 'conversion', {
+          'send_to': 'AW-10929487058/7GhtCKmB5cMDENL5ytso'
+        })
+        `
+      }
+    </script>
+
+    </Helmet>
     <div className="App">
       <header className="App-header">
         <p>
@@ -19,6 +33,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 
